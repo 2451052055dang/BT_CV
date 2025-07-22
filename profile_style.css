@@ -1,10 +1,244 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 body{
-    background: white
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.Left_Menu{
+    max-width: 350px;
+    max-height: 1315px;
+    background-color: white;
+}
+.Left_Menu h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Left_Menu p{
+    font-size: 15px;
+    color:rgb(201, 195, 195);
+    margin-bottom: 10px;
+}
+
+
+.profile{   
+    text-align: center;
+    margin-top: 50px;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 150px;
+    border: 1px solid #000;
+    background-color: white;
+}
+
+
+
+.info{
+    margin: 20px 40px 0 40px;
+}
+.ques{
+    text-align: left;
+    color:rgb(0, 0, 0)
+}
+.ans{
+    text-align: right;
+    color:rgb(0, 0, 0)
+}
+
+
+.line{
+    margin: 20px 40px 0 40px;
+    background: #cbcaca;
+    width: 220px;
+    height: 1px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+
+.section {
+    margin: 20px 40px 0 40px;
+}
+
+.lang_skill {
+    background: #cbcaca;
+    width: 220px;
+    height: 4px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.lang_skill span{
+    display: block;
+    height: 4px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: #f69801;
+}
+.sup{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    text-align: left;
+    font-size: 15px;
+    color:rgb(201, 195, 195)
+}
+.percent{
+    text-align: right;
+    font-size: 15px;
+    color:rgb(201, 195, 195)
+}
+
+.section img{
+    margin-right: 10px;
+    
+}
+
+.section_button {
+    margin: 20px 40px 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button{
+    margin: 20px 20px 40px 20px;
+    background-color: #f69801;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    gap :15px;
+}
+.button img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 50px 25px;
+    justify-content: center;  
+}
+
+.top{
+    flex:1;
+    display: flex;
+    width: 1100x;
+    height: 500px;
+    background-color: rgb(254, 254, 254);
+}
+
+.top h1{
+    margin-top: 93px;
+    margin-left: 60px;
+   font-size: 48px;
+   font-weight: bold;
+}
+.top p{
+    margin-top: 18px;
+    margin-left: 60px;
+    width: 424px;
+    height: 88px;
+    font-size: 16px;
+    color:rgb(201, 195, 195)
+}
+.hire_button{
+    margin: 20px 20px 40px 60px;
+    background-color: #fbac2e;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.arrow{
+    margin-right: 5px;
+}
+.instruct{
+    text-align: left;
+}
+.photo{
+    text-align: right;
+    margin-right: 60px;
+}
+
+.photo img{
+    margin-top: 10px;
+    margin-left:90px ;
+    width: 325.719px;
+    height: 460px;
+    overflow: hidden;
+}
+
+
+.service {
+    width: 100%;
+    width: 1100px;
+    margin: 80px auto;
+    text-align: center;
+}
+.service h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.service p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+.service_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service_box {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.service_box img {
+    width: 68px;
+    height: 68px;
+    margin: 28px auto 0 auto;
+    display: block;
+}
+.service_box h2 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.service_box p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.Right_Menu{
+    width: 108px;
+    height: 1315px;
+    background-color: #fff;
+}
+
+.icon_button{
+    width: 30px;
+    height:30px;
+    background-color: #fff;
 }
