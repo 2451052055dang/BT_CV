@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: aliceblue;
+    background-color: #f0f0f6;
     overflow-y: auto;
 }
 
@@ -715,4 +715,176 @@ body {
 }
 .port_box:hover .overlay span {
     transform: scale(1);
+}
+
+
+
+.blog {
+    min-width: 1100px;
+    margin: 80px auto;
+    text-align: center;
+}
+.blog h1 {
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.blog p {
+    margin-top: 25px;
+    color: #555;
+    font-size: 15px;
+}
+.blog_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.blog_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    max-height: 500px;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+.blog_box img{
+    margin:0 ;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 25px;
+}
+.blog_box h2{
+    margin-bottom: 10px ;
+    font-size: 18px;
+}
+.blog_box p{
+    margin-bottom: 5px ;
+    font-size: 15px;
+    color: #555;
+}
+
+
+
+
+.contact_container {
+    display: flex;
+    gap: 30px;
+    min-width: 1100px;
+    height: 800px;
+}
+.contact_left {
+    flex: 2;
+    background-color: #f0f0f6;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 570px;
+}
+.left_box{
+    background: white;
+    padding: 25px;
+    height: auto;
+}
+.contact_left h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+.form_group {
+    margin-bottom: 20px;
+}
+.form_group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #555;
+}
+.form_group input,.form_group textarea {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background: #f2f2f9;
+    color: #333;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.form_group textarea {
+    height: 210px;
+    resize: vertical;
+}
+.button_send {
+    display: inline-block;
+    margin-top: 34px;
+    padding: 9px 25px 9px 25px;
+    background: #f69801;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact_right {
+    flex: 1;
+    background-color: #f0f0f6;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 665px;
+}
+.contact_right h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+.right_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    height: 665px;
+}
+.right_block {
+    width: 370px;
+    padding: 25px;
+    background-color: white;
+}
+.icon_wrap {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.icon_wrap img {
+    width: 20px;
+    height: 20px;
+    background: #f69801;
+    padding: 8px;
+    border-radius: 50%;
+}
+.right_block p {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+    font-size: 15px;
+    color: #555;
+}
+
+
+.map{
+    margin: 70px auto 0;    
+    width: 970px;           
+    height: 300px;
+    overflow: hidden;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    margin: 70px auto 0 auto;
+    width: 80%;
+    padding: 18px 0;
+    background-color: #ffffff; 
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
 }
